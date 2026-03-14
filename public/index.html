@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ChatGPT Clone</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="app-container">
+
+<!-- Sidebar -->
+
+<div class="sidebar">
+
+<h2>ChatGPT</h2>
+
+<button id="new-chat">+ New Chat</button>
+
+<div class="history"></div>
+
+</div>
+
+<!-- Main Chat Area -->
+
+<div class="main">
+
+<header>
+
+<h3>AI Assistant</h3>
+
+<div class="header-buttons">
+
+<span id="clear-chat" class="material-symbols-rounded">
+delete
+</span>
+
+<span id="theme-btn" class="material-symbols-rounded">
+light_mode
+</span>
+
+</div>
+
+</header>
+
+<!-- Chat Messages -->
+
+<div class="chat-container"></div>
+
+<!-- Input Area -->
+
+<div class="input-area">
+
+<textarea 
+id="chat-input" 
+placeholder="Send a message..." 
+rows="1"
+></textarea>
+
+<button id="send-btn">
+Send
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

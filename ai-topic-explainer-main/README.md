@@ -22,7 +22,7 @@ The user enters a topic and the application generates a simple explanation using
 
 Clone the repository:
 
-git clone https://github.com/Sathvika2105/ai-topic-explainer.git
+git clone https://github.com/Aswitha03/ai-topic-explainer.git
 
 Install dependencies:
 
@@ -36,8 +36,8 @@ Open http://localhost:3000 in your browser.
 
 ## Live Demo
 
-https://ai-topic-explainer-ez9olowmi-muriki-sathvikas-projects.vercel.app/
+(https://ai-topic-explainer-three.vercel.app/)
 
 ## Author
 
-Murki Sathvika
+Aswitha Kota
